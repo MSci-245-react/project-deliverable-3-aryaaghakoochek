@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
 import { Link } from 'react-router-dom';
 
-const Landing = () => {
+const MyPage = () => {
     const pages = ['Home', 'Search', 'Review', 'MyPage'];
     return (
         <Grid container spacing={5}>
@@ -35,4 +35,4 @@ const Landing = () => {
         </Grid>    
     )
 }
-export default Landing;
+export default MyPage;
