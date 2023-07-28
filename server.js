@@ -38,6 +38,7 @@ app.post('/api/loadUserSettings', (req, res) => {
     connection.end();
 });
 
+
 app.post('/api/getMovies', (req, res) => {
     let callResults;
     let sql = "SELECT * FROM aaghakoo.movies";

@@ -8,13 +8,17 @@
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql": "^2.18.1",
     "node-fetch": "^3.3.1",
     "nodemon": "^2.0.22",
+    "react-alice-carousel": "^2.7.1",
+    "react-youtube": "^10.1.0",
     "recompose": "^0.30.0",
-    "yarn": "^1.22.19"
+    "yarn": "^1.22.19",
+    "youtube-api-v3-search": "^1.2.1"
   },
   "devDependencies": {
     "concurrently": "^8.0.1"

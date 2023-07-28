@@ -1,0 +1,47 @@
+/* index.css */
+.alice-carousel {
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color as needed */
+        color: white; /* Adjust the button text color as needed */
+        border: none;
+        border-radius: 50%;
+        padding: 8px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        outline: none;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        z-index: 1;
+    }
+
+    .alice-carousel__prev-btn {
+        left: 10px;
+        transform: translateY(-50%) translateX(-50%); /* Center horizontally */
+    }
+
+    .alice-carousel__next-btn {
+        right: 10px;
+        transform: translateY(-50%) translateX(50%); /* Center horizontally */
+    }
+}
+
+.video-wrapper {
+    width: 80%; /* Adjust the width of the video box as needed */
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+    position: relative;
+    margin: 0 auto; /* Center the video box horizontally */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
